@@ -1,16 +1,17 @@
 # Python
 __pycache__/
 *.py[cod]
-*.sqlite3
 
 # Virtualenv
 venv/
-.env/
 
-# Django
-db.sqlite3
+# Banco de dados (gerado automaticamente)
+db/
+!db/.gitkeep
+
+# Logs
 *.log
-staticfiles/
+logs/
 
 # VSCode
 .vscode/
@@ -18,3 +19,6 @@ staticfiles/
 # OS
 .DS_Store
 Thumbs.db
+
+# Env
+.env

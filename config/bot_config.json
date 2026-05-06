@@ -1,0 +1,55 @@
+{
+  "interval_minutes": 5,
+  "reddit_monitors": [
+    {
+      "name": "Noticias Brasil",
+      "monitor_type": "subreddit",
+      "target": "brasil",
+      "keywords": "politica, governo, economia, brasil",
+      "min_score": 20,
+      "limit": 30,
+      "is_active": true
+    },
+    {
+      "name": "Noticias Mundo",
+      "monitor_type": "subreddit",
+      "target": "worldnews",
+      "keywords": "war, peace, election, crisis, trade",
+      "min_score": 50,
+      "limit": 30,
+      "is_active": true
+    },
+    {
+      "name": "Noticias Gerais",
+      "monitor_type": "subreddit",
+      "target": "news",
+      "keywords": "breaking, politics, economy, world",
+      "min_score": 50,
+      "limit": 30,
+      "is_active": true
+    },
+    {
+      "name": "Tecnologia",
+      "monitor_type": "subreddit",
+      "target": "technology",
+      "keywords": "AI, tech, startup, innovation",
+      "min_score": 80,
+      "limit": 30,
+      "is_active": true
+    }
+  ],
+  "rss_sources": [
+    {"name": "G1 - Ultimas Noticias", "url": "https://g1.globo.com/rss/g1/", "is_active": true},
+    {"name": "BBC News - Brasil", "url": "https://feeds.bbci.co.uk/portuguese/rss.xml", "is_active": true},
+    {"name": "UOL Noticias", "url": "https://rss.uol.com.br/feed/noticias.xml", "is_active": true},
+    {"name": "Folha de S.Paulo", "url": "https://feeds.folha.uol.com.br/emcimadahora/rss091.xml", "is_active": true},
+    {"name": "CNN Brasil", "url": "https://www.cnnbrasil.com.br/feed/", "is_active": true},
+    {"name": "TechCrunch", "url": "https://techcrunch.com/feed/", "is_active": true},
+    {"name": "The Verge", "url": "https://www.theverge.com/rss/index.xml", "is_active": true},
+    {"name": "Wired", "url": "https://www.wired.com/feed/rss", "is_active": true},
+    {"name": "Google News - Regiao dos Lagos", "url": "https://news.google.com/rss/search?q=regi%C3%A3o%20dos%20lagos&hl=pt-BR&gl=BR&ceid=BR:pt-419", "is_active": true},
+    {"name": "Google News - Cabo Frio", "url": "https://news.google.com/rss/search?q=cabo%20frio&hl=pt-BR&gl=BR&ceid=BR:pt-419", "is_active": true},
+    {"name": "Google News - Buzios", "url": "https://news.google.com/rss/search?q=b%C3%BAzios&hl=pt-BR&gl=BR&ceid=BR:pt-419", "is_active": true},
+    {"name": "Google News - Saquarema", "url": "https://news.google.com/rss/search?q=saquarema&hl=pt-BR&gl=BR&ceid=BR:pt-419", "is_active": true}
+  ]
+}
