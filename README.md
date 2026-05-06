@@ -45,7 +45,6 @@ Este módulo standalone foi integrado ao backend Django do projeto **IRIS** da *
     ├── config/
     │   └── bot_config.json             # Configuração de monitores
     ├── db/                             # Banco TinyDB (gerado automaticamente)
-    ├── logs/                           # Logs de execução
     ├── requirements.txt
     └── README.md
 
@@ -125,6 +124,6 @@ No projeto IRIS, este módulo foi integrado ao backend Django existente no servi
 
 ## 👤 Autor
 
-Desenvolvido por Yuri Yam como parte do projeto IRIS - InterTV
+Desenvolvido por Yuri Lima Xavier de Miranda como parte do projeto IRIS - InterTV
 
 📅 Maio 2026
